@@ -1,0 +1,9 @@
+a=input('enter any number')
+l=len(a)
+s=0
+for i in a:
+    s+=int(i)**l
+if int(a)==s:
+    print(a,'is armstrong number')
+else:
+    print(a,'is not an armstrong number')
